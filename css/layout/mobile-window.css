@@ -1,12 +1,4 @@
-@media screen and (max-width: 767px) {
-  .menu {
-    display: none;
-  }
-
-  .social-list {
-    display: none;
-  }
-
+@media screen and (max-width: 767px) {  
   .mobile-menu {
     position: fixed;
     left: 0;

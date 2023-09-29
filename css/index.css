@@ -9,7 +9,7 @@
 
 /* LAYOUT */
 @import './layout/header.css';
-@import './layout/mobile-window.css';
+/* @import './layout/mobile-window.css'; */
 @import './layout/hero.css';
 @import './layout/about.css';
 @import './layout/collection.css';
