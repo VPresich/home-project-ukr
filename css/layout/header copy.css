@@ -24,7 +24,7 @@
     transition: transform 250ms ease-out;
   }
 
-  .mobile-menu-is-open {
+  .mobile-menu.is-open {
     transform: translateX(0%);
   }
 

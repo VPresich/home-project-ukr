@@ -34,6 +34,8 @@ button {
 
 body {
   font-family: 'Manrope', sans-serif;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .accent-color {
