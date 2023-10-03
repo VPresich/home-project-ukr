@@ -35,131 +35,109 @@
     <!-- ====================== Header ========================== -->
     <header class="page-header">
       <div class="container page-header-container">
-        <nav class="page-navigation">
-          <a class="logotype link" href="./index.html">
-            <img
-              class="logotype-icon"
-              src="./img/icons/logo.svg"
-              alt="logotype"
-              width="44"
-              height="39"
-            />
-          </a>
-
-          <ul class="menu list">
-            <li class="menu-item">
-              <a class="menu-link link" href="#">About us</a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link link" href="#">Our collection</a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link link" href="#">Customer order</a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link link" href="#">TEstimonials</a>
-            </li>
-          </ul>
-        </nav>
-
-        <address class="contacts">
-          <a href="tel:++380684439426" class="contact-link"
-            >+380 (68) 443-94-26</a
-          >
-        </address>
-
-        <ul class="social-list list">
-          <li class="social-list-item">
-            <a class="social-list-link" href="">
-              <svg
-                class="social-list-icon"
-                width="28"
-                height="28"
-                aria-label="facebook icon"
-              >
-                <use href="./img/icons/sprite.svg#id-facebook"></use>
-              </svg>
+        <div class="header">
+          <nav class="page-navigation">
+            <a class="logotype link" href="./index.html">
+              <img class="logotype-icon" src="./img/icons/logo.svg" alt="logotype" width="44" height="39" />
             </a>
-          </li>
-          <li class="social-list-item">
-            <a class="social-list-link" href="">
-              <svg
-                class="social-list-icon"
-                width="28"
-                height="28"
-                aria-label="instagram icon"
-              >
-                <use href="./img/icons/sprite.svg#id-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-list-item">
-            <a class="social-list-link" href="">
-              <svg
-                class="social-list-icon"
-                width="28"
-                height="28"
-                aria-label="youtube icon"
-              >
-                <use href="./img/icons/sprite.svg#id-youtube"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-        <button class="open-mobile-menu-btn">
-          <svg
-            class="open-mobile-menu-icon"
-            width="44"
-            height="30"
-            aria-label="mobile menu open icon"
-          >
+            <ul class="menu-header list">
+              <li class="menu-item-header">
+                <a class="menu-link-header link" href="#about">About us</a>
+              </li>
+              <li class="menu-item-header">
+                <a class="menu-link-header link" href="#collection">Our collection</a>
+              </li>
+              <li class="menu-item-header">
+                <a class="menu-link-header link" href="#order">Customer order</a>
+              </li>
+              <li class="menu-item-header">
+                <a class="menu-link-header link" href="#testimonials">TEstimonials</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contacts-social-list-header">
+            <address class="contacts link">
+              <a href="tel:+380684439426" class="contact-link">+380 (68) 443-94-26</a>
+            </address>
+    
+            <ul class="social-list-header list">
+              <li class="social-list-item">
+                <a class="social-list-link" target="_blank" href="https://www.facebook.com/goITclub/">
+                  <svg class="social-list-icon" width="28" height="28" aria-label="facebook icon">
+                    <use href="./img/icons/sprite.svg#id-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a class="social-list-link" target="_blank" href="https://www.instagram.com/goitclub/">
+                  <svg class="social-list-icon" width="28" height="28" aria-label="instagram icon">
+                    <use href="./img/icons/sprite.svg#id-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a class="social-list-link" target="_blank" href="https://www.youtube.com/c/GoIT">
+                  <svg class="social-list-icon" width="28" height="28" aria-label="youtube icon">
+                    <use href="./img/icons/sprite.svg#id-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="open-mobile-menu-btn js-open-menu-btn">
+          <svg class="open-mobile-menu-icon" width="36" height="24" aria-label="mobile menu open icon">
             <use href="./img/icons/sprite.svg#id-nav"></use>
           </svg>
         </button>
       </div>
     </header>
+    
 
     <main>
       <!-- ========================= HERO =========================== -->
       <section class="hero">
         <div class="container">
-          <img
-            class="how-made-img"
-            srcset="
-              ./img/hero/girl-desktop@1x.jpg 392w,
-              ./img/hero/girl-desktop@2x.jpg 784w,
-              ./img/hero/girl-tablet@1x.jpg  413w,
-              ./img/hero/girl-tablet@2x.jpg  726w,
-              ./img/hero/girl-mobile@1x.jpg  335w,
-              ./img/hero/girl-mobile@2x.jpg  670w
-            "
-            sizes="(min-width:1280px) 392px, (min-width:768px) 413px,
-                   (max-width:767px) 335px"
-            src="./img/hero/girl-desktop@1x.jpg"
-            alt="girl photo"
-          />
-          <div class="hero-title-block">
-            <h1 class="main-title">
-              Treat yourself or a loved one to our finest ingredients for a
-              moment of pure delight!
-            </h1>
-            <a class="order-link link" href="">
-              order
-              <span class="order-link-icon-wrapper">
-                <svg
-                  class="order-link-icon"
-                  width="26"
-                  height="10"
-                  aria-label="order ink icon"
-                >
-                  <use href="./img/icons/sprite.svg#icon-vector"></use>
-                </svg>
-              </span>
-            </a>
+          <div class="hero-content-block">
+            <div class="hero-title-block">
+              <h1 class="main-title">
+                Reviving the traditional
+                <span class="accent-color">Ukrainian</span> artistry in every stitch.
+              </h1>
+              <a class="order-link link" href="#order">
+                order
+                <span class="order-link-icon-wrapper">
+                  <svg
+                    class="order-link-icon"
+                    width="26"
+                    height="10"
+                    aria-label="order link icon"
+                  >
+                    <use href="./img/icons/sprite.svg#icon-vector"></use>
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <div>
+              <img
+                class="hero-girl-img"
+                srcset="
+                  ./img/hero/girl-desktop@1x.jpg 392w,
+                  ./img/hero/girl-desktop@2x.jpg 784w,
+                  ./img/hero/girl-tablet@1x.jpg  413w,
+                  ./img/hero/girl-tablet@2x.jpg  826w,
+                  ./img/hero/girl-mobile@1x.jpg  335w,
+                  ./img/hero/girl-mobile@2x.jpg  670w
+                "
+                sizes="(min-width:1280px) 392px, (min-width:768px) 413px,
+                     (max-width:767px) 335px"
+                src="./img/hero/girl-mobile@1x.jpg"
+                alt="girl photo"
+              />
+            </div>
           </div>
-
           <div class="hero-handmade-block">
-            <span class="order-star-icon-wrapper">
+            <div class="order-star-icon-wrapper">
               <svg
                 class="order-star-icon"
                 width="52"
@@ -168,32 +146,36 @@
               >
                 <use href="./img/icons/sprite.svg#icon-star"></use>
               </svg>
-            </span>
-
+              <p class="hero-handmade-text">all embroidery is made by hand</p>
+            </div>
+      
             <img
-              src="./img/hero/example-@1x.jpg"
+              class="hero-handmade-example"
+              srcset="./img/hero/example-@2x.png 2x"
+              src="./img/hero/example-@1x.png"
               alt="handmade example photo"
               width="142"
-              height="156"
+              height="100"
             />
           </div>
         </div>
       </section>
+      
 
       <!-- ========================= ABOUT US ======================== -->
-      <section class="about section" id="about">
-        <div class="container about-container">
+      <section class="about-section section" id="about">  
+        <div class="about-section-container container"> 
           <div class="about-content-wrapper">
-            <h2 class="section-title">About Us</h2>
-            <ul class="about-text-list list">
-              <li class="about-text">
+            <div class="about-section-text-container">
+              <h2 class="about-section-title">About Us</h2>
+              <p class="about-text">
                 The store "Vyshyvanka Vibes" is a place where traditional
                 Ukrainian vyshyvanka comes to life with new zest and style. Our
                 store offers a wide selection of high-quality and authentic
                 embroidery, which combines the elegance of traditional
                 needlework and modern design.
-              </li>
-              <li class="about-text">
+              </p>
+              <p class="about-text second">
                 In "Vyshyvanka Vibes" you will find various models of
                 embroidery, from classic to modern, corresponding to the latest
                 fashion trends. Our embroidery is made using natural fabrics and
@@ -204,33 +186,33 @@
                 individuality. Each embroidery from "Vyshyvanka Vibes" has its
                 own unique history and symbolism, which gives it a special
                 meaning.
-              </li>
-            </ul>
+              </p>
+            </div>
+            <img
+              class="about-img"
+              srcset="
+                ./img/about/girl-boy-example-desktop-1440@1x.jpg  709w,
+                ./img/about/girl-boy-example-desktop-1440@2x.jpg 1418w,
+                ./img/about/girl-boy-example-desktop-1280@1x.jpg  594w,
+                ./img/about/girl-boy-example-desktop-1280@2x.jpg 1188w,
+                ./img/about/girl-boy-example-tablet@1x.jpg        704w,
+                ./img/about/girl-boy-example-tablet@2x.jpg       1408w,
+                ./img/about/girl-boy-example-mobile@1x.jpg        335w,
+                ./img/about/girl-boy-example-mobile@2x.jpg        670w
+              "
+              sizes="(min-width: 1440px) 709px, (min-width: 1280px) 594px, (min-width: 768px) 704px,
+                   (max-width: 767px) 335px"
+              src="./img/about/girl-boy-example-tablet@1x.jpg"
+              alt="example photo"
+            />
           </div>
-          <img
-            class="about-img"
-            srcset="
-              ./img/about/girl-boy-example-desktop-1440@1x.jpg  709w,
-              ./img/about/girl-boy-example-desktop-1440@2x.jpg 1418w,
-              ./img/about/girl-boy-example-desktop-1280@1x.jpg  594w,
-              ./img/about/girl-boy-example-desktop-1280@2x.jpg 1188w,
-              ./img/about/girl-boy-example-tablet@1x.jpg        704w,
-              ./img/about/girl-boy-example-tablet@2x.jpg       1408w,
-              ./img/about/girl-boy-example-mobile@1x.jpg        335w,
-              ./img/about/girl-boy-example-mobile@2x.jpg        670w
-            "
-            sizes="(min-width:1440px) 709px, (min-width:1280px) 594px, (min-width:768px) 704px,
-                   (max-width:767px) 335px"
-            src="./img/about/girl-boy-example-desktop-1440@1x.jpg"
-            alt="example photo"
-          />
         </div>
       </section>
 
       <!-- ====================== Our Collеction Section ======================= -->
       <section class="collection section" id="collection">
-        <div class="container">
-          <h2 class="section-title">Our collection</h2>
+        <div class="container collection-container">
+          <h2 class="section-title section-title-collection">Our collection</h2>
           <ul class="collection-list list">
             <li class="collection-list-item">
               <img
@@ -245,8 +227,8 @@
                   ./img/collection/mobile/w1-mobile@1x.jpg        335w,
                   ./img/collection/mobile/w1-mobile@2x.jpg        670w
                 "
-                sizes="(min-width:1440px) 400px, (min-width:1280px) 347px, (min-width:768px) 342px,
-                   (max-width:767px) 335px"
+                sizes="(min-width: 1440px) 400px, (min-width: 1280px) 347px, (min-width: 768px) 342px,
+                   (max-width: 767px) 335px"
                 src="./img/collection/mobile/w1-mobile@1x.jpg"
                 alt="Poltava women's blouse"
               />
@@ -255,7 +237,7 @@
               </h3>
               <p class="collection-list-price">3300 UAH</p>
             </li>
-
+    
             <li class="collection-list-item">
               <img
                 class="collection-list-img"
@@ -298,7 +280,7 @@
               <h3 class="collection-list-name">Women's blouse Crimea</h3>
               <p class="collection-list-price">4000 UAH</p>
             </li>
-
+    
             <li class="collection-list-item">
               <img
                 class="collection-list-img"
@@ -320,7 +302,7 @@
               <h3 class="collection-list-name">Men's shirt Verkhovina</h3>
               <p class="collection-list-price">3100 UAH</p>
             </li>
-
+    
             <li class="collection-list-item">
               <img
                 class="collection-list-img"
@@ -342,7 +324,7 @@
               <h3 class="collection-list-name">Mountain men's shirt</h3>
               <p class="collection-list-price">3300 UAH</p>
             </li>
-
+    
             <li class="collection-list-item">
               <img
                 class="collection-list-img"
@@ -369,144 +351,164 @@
       </section>
 
       <!-- ========================== Order SECTION ===========================-->
-      <section class="order section" id="order">
+      <section class="order-section section" id="order">
+        <!-- <div class="order-green-girl"></div> -->
         <div class="container order-container">
-          <div class="order-img-container">
-            <img
-              class="order-img"
-              srcset="
-                ./img/order/order-desktop@1x.jpg  320w,
-                ./img/order/order-desktop2x.jpg   640w,
-                ./img/order/order-tablet@1x.jpg   638w,
-                ./img/order/order-tablet@2x.jpg  1276w
-              "
-              sizes="(min-width:1280px) 320px, (min-width:768px) 638px"
-              src="./img/order/order-desktop@1x.jpg"
-              alt="Vyshyvanka photo"
-              width="320"
-            />
-          </div>
-          <div class="order-form-container">
-            <h2 class="section-title section-order">
-              <span class="accent-color">Your order</span> is our priority:
-              Personalized approach and quality of service
-            </h2>
-            <form class="order-form">
-              <div class="order-form-field-wrapper">
-                <input
-                  class="order-form-input"
-                  type="text"
-                  id="user-name"
-                  name="user_name"
-                  placeholder="Enter your full name"
-                  pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
-                  title="Valentyna"
-                  required
-                />
-              </div>
-              <div class="order-form-field-wrapper">
-                <input
-                  class="order-form-input"
-                  type="email"
-                  id="user-email"
-                  placeholder="Enter your email"
-                  name="user_email"
-                  required
-                />
-              </div>
-              <div class="order-form-field-wrapper">
-                <textarea
-                  class="order-form-comment"
-                  name="user_comment"
-                  id="user-comment"
-                  placeholder="Comment"
-                ></textarea>
-              </div>
-
-              <button class="order-form-submit" type="submit">
-                Send
-                <span class="order-link-icon-wrapper">
-                  <svg
-                    class="order-link-icon"
-                    width="26"
-                    height="10"
-                    aria-label="order ink icon"
-                  >
-                    <use href="./img/icons/sprite.svg#icon-vector"></use>
-                  </svg>
-                </span>
-              </button>
-            </form>
+          <div class="order-green-girl"></div>
+          <div class="order-items-container">
+            <div class="order-item-one">
+              <h2 class="order-section-title">
+                <span class="accent-color">Your order</span> is our priority:
+                Personalized approach and quality of service
+              </h2>
+              <form class="order-form">
+                <div class="order-form-field-wrapper">
+                  <input
+                    class="order-form-input"
+                    type="text"
+                    id="user-name"
+                    name="user_name"
+                    placeholder="Enter your full name"
+                    pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+                    title="Valentyna"
+                    required
+                  />
+                </div>
+                <div class="order-form-field-wrapper">
+                  <input
+                    class="order-form-input"
+                    type="email"
+                    id="user-email"
+                    placeholder="Enter your email"
+                    name="user_email"
+                    required
+                  />
+                </div>
+                <div class="order-form-field-wrapper">
+                  <textarea
+                    class="order-form-input order-form-comment"
+                    name="user_comment"
+                    id="user-comment"
+                    placeholder="Comments"
+                  ></textarea>
+                </div>
+                <button class="order-form-submit-button" type="submit">
+                  <span>Send</span>
+                  <span class="order-form-button-icon-wrapper">
+                    <svg
+                      class="order-form-button-icon"
+                      width="26"
+                      height="10"
+                      aria-label="order ink icon"
+                    >
+                      <use href="./img/icons/sprite.svg#icon-vector"></use>
+                    </svg>
+                  </span>
+                </button>
+              </form>
+            </div>
+            <div class="order-img-container">
+              <img
+                class="order-img"
+                srcset="
+                  ./img/order/order-desktop@1x.jpg  320w,
+                  ./img/order/order-desktop@2x.jpg  640w,
+                  ./img/order/order-tablet@1x.jpg   638w,
+                  ./img/order/order-tablet@2x.jpg  1276w
+                "
+                sizes="(min-width:1280px) 524px, (min-width:768px) 638px"
+                src="../img/order/order-tablet@1x.jpg"
+                alt="Vyshyvanka photo"         
+              />
+            </div>
           </div>
         </div>
       </section>
+      
 
       <!-- ======================= Testimonials Section ====================== -->
       <section class="reviews section" id="testimonials">
-        <div class="container">
+        <div class="container reviews-container">
           <h2 class="section-title reviews-section-title">Testimonials</h2>
           <ul class="reviews-list list">
             <li class="reviews-list-item">
-              <img
-                class="reviews-list-avatar"
-                src="./img/reviews/maria-tkachuk.jpg"
-                alt="Maria Tkachuk avatar"
-                width="64"
-                height="64"
-              />
-              <h3 class="reviews-list-fullname">Maria Tkachuk</h3>
-              <p class="reviews-list-text">
-                I was pleasantly surprised by the variety of embroidery offered
-                by Vyshyvanka Vibes. They have models for every taste - from
-                classic to modern. I bought an embroidered dress to celebrate a
-                special occasion and received impeccable service and refinement
-                in every detail.
-              </p>
+              <div class="reviews-list-item-container">
+                <div class="reviews-list-icon-wrap">
+                  <img
+                    class="reviews-list-avatar"           
+                    srcset="./img/reviews/maria-tkachuk.jpg, ./img/reviews/maria-tkachuk@2x.jpg"
+                    src="./img/reviews/maria-tkachuk.jpg"
+                    alt="Maria Tkachuk avatar"
+                    width="64"
+                    height="64"
+                  />
+                </div>           
+                <h3 class="reviews-list-fullname">Maria Tkachuk</h3>
+                <p class="reviews-list-text">
+                    I was pleasantly surprised by the variety of embroidery offered
+                    by Vyshyvanka Vibes. They have models for every taste - from
+                    classic to modern. I bought an embroidered dress to celebrate a
+                    special occasion and received impeccable service and refinement
+                    in every detail.
+                </p>            
+              </div>
             </li>
             <li class="reviews-list-item">
-              <img
-                class="reviews-list-avatar"
-                src="./img/reviews/sergey-rybachok.jpg"
-                alt="Sergey Rybachok avatar"
-                width="64"
-                height="64"
-              />
-              <h3 class="reviews-list-fullname">Sergey Rybachok</h3>
-              <p class="reviews-list-text">
-                Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka
-                are simply masterpieces! I fell in love with the quality of the
-                materials and the skill of the artisans behind each product.
-                This is my favorite embroidery shop where I always find
-                something special and unique.
-              </p>
+              <div class="reviews-list-item-container">
+                <div class="reviews-list-icon-wrap">
+                  <img
+                    class="reviews-list-avatar"
+                    srcset="./img/reviews/sergey-rybachok.jpg, ./img/reviews/sergey-rybachok@2x.jpg"
+                    src="./img/reviews/sergey-rybachok.jpg"
+                    alt="Sergey Rybachok avatar"
+                    width="64"
+                    height="64"
+                  />
+                </div>
+                <h3 class="reviews-list-fullname">Sergey Rybachok</h3>
+                <p class="reviews-list-text">
+                    Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka
+                    are simply masterpieces! I fell in love with the quality of the
+                    materials and the skill of the artisans behind each product.
+                    This is my favorite embroidery shop where I always find
+                    something special and unique.
+                </p>
+              </div>
             </li>
             <li class="reviews-list-item">
-              <img
-                class="reviews-list-avatar"
-                src="./img/reviews/natalia-chatuk.jpg"
-                alt="Natalia Chatuk avatar"
-                width="64"
-                height="64"
-              />
-              <h3 class="reviews-list-fullname">Natalia Chatuk</h3>
-              <p class="reviews-list-text">
-                Vyshyvanka Vibes is a real find for everyone who appreciates
-                Ukrainian culture. Their embroidery reflects the spirit and
-                traditions of our people. I not only buy embroidered shirts for
-                myself, but also give them to my friends abroad as a symbol of
-                our beauty and national pride.
-              </p>
+              <div class="reviews-list-item-container">
+                <div class="reviews-list-icon-wrap">
+                  <img
+                    class="reviews-list-avatar"
+                    srcset="./img/reviews/natalia-chatuk.jpg, ./img/reviews/natalia-chatuk@2x.jpg"
+                    src="./img/reviews/natalia-chatuk.jpg"
+                    alt="Natalia Chatuk avatar"
+                    width="64"
+                    height="64"
+                  />
+                </div>          
+                <h3 class="reviews-list-fullname">Natalia Chatuk</h3>
+                <p class="reviews-list-text">
+                    Vyshyvanka Vibes is a real find for everyone who appreciates
+                    Ukrainian culture. Their embroidery reflects the spirit and
+                    traditions of our people. I not only buy embroidered shirts for
+                    myself, but also give them to my friends abroad as a symbol of
+                    our beauty and national pride.
+                </p>
+              </div>
             </li>
           </ul>
         </div>
-      </section>
+      </section>  
+    
+    
       <!-- ========================== PAGE FOOTER ==========================-->
     </main>
     <footer class="footer-page">
       <div class="container footer-page-container">
         <nav class="footer-navigation">
-          <ul class="footer-menu list">
-            <div class="about-menu-wrapper">
+          <div class="footer-menu list">
+            <ul class="about-menu-wrapper">
               <li class="footer-menu-item">
                 <a class="footer-menu-item-link link" href="#about">About us</a>
               </li>
@@ -515,8 +517,8 @@
                   >Our collection</a
                 >
               </li>
-            </div>
-            <div class="customers-menu-wrapper">
+            </ul>
+            <ul class="customers-menu-wrapper">
               <li class="footer-menu-item">
                 <a class="footer-menu-item-link link" href="#order"
                   >Customer order</a
@@ -527,42 +529,42 @@
                   >TEstimonials</a
                 >
               </li>
-            </div>
-          </ul>
+            </ul>
+          </div>
         </nav>
         <div class="footer-title-wrapper">
           <h2 class="footer-title">
-            A touch of <span class="accent-color">Ukrainian</span> culture in
+            A touch of <span class="accent-color accent-title">Ukrainian</span> culture in       
             every embroidery
           </h2>
+        </div>
+        <div class="footer-bgr-container">    
         </div>
       </div>
     </footer>
 
     <!-- ===================== MOBILE MENU ======================= -->
-    <!-- is-open -->
-    <!-- <div class="mobile-menu">
+    <div class="mobile-menu js-mobile-menu">
       <div class="mobile-menu-container">
-        <button class="mobile-menu-close-btn">
+        <button class="mobile-menu-close-btn js-mobile-menu-close-btn">
           <svg
             class="mobile-menu-close-icon"
-            width="44"
-            height="44"
+            width="36"
+            height="36"
             aria-label="mobile menu close icon"
           >
             <use href="./img/icons/sprite.svg#icon-close"></use>
           </svg>
         </button>
-
-        <address class="mobile-contacts">
-          <a href="tel:++380684439426" class="mobile-contact-link"
-            >+380 (68) 443-94-26</a
-          >
+    
+        <address class="mobile-contact link">
+          <a class="mobile-contact-link" href="tel:+380684439426"
+            >+380 (68) 443-94-26</a>
         </address>
-
+    
         <nav class="mobile-navigation">
           <ul class="mobile-nav-list list">
-            <li class="mobile-nav-item accent-color">
+            <li class="mobile-nav-item">
               <a class="mobile-nav-item-link link" href="#about">About us</a>
             </li>
             <li class="mobile-nav-item">
@@ -577,13 +579,13 @@
             </li>
             <li class="mobile-nav-item">
               <a class="mobile-nav-item-link link" href="#testimonials"
-                >TEstimonials</a
+                >Testimonials</a
               >
             </li>
           </ul>
-        </nav>
+        </nav>    
       </div>
     </div>
-    <script src="./js/open-close-mobile-menu.js"></script> -->
+    <script src="./js/open-close-mobile-menu.js"></script>
   </body>
 </html>

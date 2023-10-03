@@ -5,26 +5,17 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-img {
-  display: block;
-}
-
-.list {
-  list-style-type: none;
-}
-
-.link {
+a {
+  color: currentColor;
   text-decoration: none;
 }
 
@@ -32,12 +23,18 @@ button {
   cursor: pointer;
 }
 
-body {
-  font-family: 'Manrope', sans-serif;
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-.accent-color {
-  color: var(--accent-color);
+.link {
+  text-decoration: none;
+  font-style: normal;
 }
+
+.list {
+  list-style-type: none;  
+}
+

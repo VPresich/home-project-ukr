@@ -1,6 +1,27 @@
-.footer-page {
+@media screen and (max-width: 374px) {
+  .footer-menu-item-link {
+    font-size: 14px;
+  }
+
+  .footer-title-wrapper {
+    width: 100%;
+    padding-left: 12px;
+    padding-left: 12px;
+  }  
+
+  .footer-title { 
+    color: var(--primary-color);
+    font-size: 32px;
+  }
+}
+
+.accent-title{
+ display:i nline-block;
+}
+
+.footer-page-container {
   padding-top: 40px;
-  padding-bottom: 280px;
+  padding-bottom: 0;
 }
 
 .footer-navigation {
@@ -37,46 +58,75 @@
   text-transform: uppercase;
 }
 
-.footer-title {
+.footer-title-wrapper {
+  width: 335px;
+  margin-bottom: 78px;
+}
+
+.footer-title { 
   color: var(--primary-color);
   font-size: 44px;
   font-weight: 400;
   line-height: 1.23;
   letter-spacing: -0.03em;
+  word-wrap: break-word;
 }
 
-.footer-title-wrapper {
-  width: 335px;
-}
-
-.footer-page {
-  background-image: url('../../../img/footer/elements-mobile@1x.png');
+.footer-bgr-container {
+  background-image: url('../../img/footer/elements-mobile@1x.png');
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-position: right bottom;
+  background-position: center center;
+  background-size: contain;
+  width: 100%;
+  height: 213px;
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 375px),
+screen and (min-resolution: 2dppx) and (min-width: 375px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
+  .footer-bgr-container { 
+    background-image: url('../../img/footer/elements-mobile@2x.png');
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .footer-page {
+
+  .footer-bgr-container {
+    display: none;   
+  }
+
+  .footer-page-container {
+    padding-top: 40px;
     padding-bottom: 40px;
   }
 
   .footer-navigation {
-    display: block;
     margin-bottom: 80px;
   }
 
-  .footer-title {
+  .footer-title {    
     font-size: 54px;
     line-height: 1.19;
   }
 
   .footer-title-wrapper {
     width: 521px;
+    margin-bottom: 0;
   }
 
   .footer-page {
-    background-image: url('../../../img/footer/elements-tablet@1x.png');
+    background-image: url('../../img/footer/elements-tablet@1x.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 173px 377px;
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+  .footer-page { 
+    background-image: url('../../img/footer/elements-tablet@2x.png');
   }
 }
 
@@ -95,10 +145,20 @@
   }
 
   .footer-page {
-    background-image: url('../../../img/footer/elements-desktop-1280@1x.png');
-    background-position: right top;
+    background-image: url('../../img/footer/elements-desktop-1280@1x.png');
+    background-position: bottom right;
+    background-size: 336px 377px;
   }
 }
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+screen and (min-resolution: 2dppx) and (min-width: 1280px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  .footer-page { 
+      background-image: url('../../img/footer/elements-desktop-1280@2x.png');
+    }
+}
+
 
 @media screen and (min-width: 1440px) {
   .footer-title {
@@ -107,7 +167,16 @@
   }
 
   .footer-page {
-    background-image: url('../../../img/footer/elements-desktop-1440@1x.png');
-    background-position: right bottom;
+    background-image: url('../../img/footer/elements-desktop-1440@1x.png');
+    background-position: bottom right;
+    background-size: 515px 373px;
   }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+screen and (min-resolution: 2dppx) and (min-width: 1440px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+  .footer-page { 
+      background-image: url('../../img/footer/elements-desktop-1440@2x.png');
+    }
 }
