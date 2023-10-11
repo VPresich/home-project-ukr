@@ -5,7 +5,7 @@
 /* BASE */
 @import './base/common.css';
 @import './base/container.css';
-/* @import './base/section.css'; */
+@import './base/section.css';
 
 /* LAYOUT */
 @import './layout/header.css';
@@ -16,5 +16,3 @@
 @import './layout/order.css';
 @import './layout/testimonials.css';
 @import './layout/footer.css';
-
-
