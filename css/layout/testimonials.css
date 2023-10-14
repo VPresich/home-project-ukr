@@ -47,7 +47,7 @@
 }
 
 .reviews-list-fullname {
-  color: var(--primary-color);
+  color: var(--primary-color);  
   text-align: center;
   font-size: 20px;
   font-style: normal;
